@@ -30,7 +30,7 @@ jobs:
         uses: classroom-resources/autograding-command-grader@v1
         with:
           test-name: StringCalculator - pytest
-          command: 'pytest --maxfail=1 --disable-warnings -q'
+          command: "bash -lc 'PYTHONPATH=src pytest -q tests/test_string_calculator.py --maxfail=1 --disable-warnings --import-mode=importlib'"
           timeout: 5
           max-score: 6
 

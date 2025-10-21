@@ -33,7 +33,6 @@ Zusätzlich benötigst du einige Pakete, um Tests durchzuführen und den Code zu
 
 ### Benötigte Pakete:
 
-- `pytest` für das Schreiben und Ausführen von Tests  
 - `flake8` für die Überprüfung des Codes auf Stil- und Syntaxfehler  
 - `pylint` für eine statische Codeanalyse und Verbesserungsvorschläge
 
@@ -42,7 +41,7 @@ Zusätzlich benötigst du einige Pakete, um Tests durchzuführen und den Code zu
 Führe folgenden Befehl in deinem Terminal oder der Eingabeaufforderung aus, um alle benötigten Pakete zu installieren:
 
 ```bash
-pip install pytest flake8 pylint
+pip install flake8 pylint
 ```
 
 ---
