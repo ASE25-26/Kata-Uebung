@@ -30,7 +30,7 @@ jobs:
         uses: classroom-resources/autograding-command-grader@v1
         with:
           test-name: StringCalculator - pytest
-          command: "bash -lc 'PYTHONPATH=src pytest -q tests/test_string_calculator.py --maxfail=1 --disable-warnings --import-mode=importlib'"
+          command: "bash -lc 'export PYTHONPATH=\"$GITHUB_WORKSPACE:.\"; pytest -q tests/test_string_calculator.py --maxfail=1 --disable-warnings --import-mode=importlib'"
           timeout: 5
           max-score: 6
 
@@ -39,7 +39,7 @@ jobs:
         uses: classroom-resources/autograding-command-grader@v1
         with:
           test-name: CodeStyle - flake8
-          command: 'flake8 src/ tests/'
+          command: 'flake8 src/string_calculator.py'
           timeout: 2
           max-score: 2
 

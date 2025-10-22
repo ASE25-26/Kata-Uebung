@@ -7,7 +7,7 @@ Das Ziel ist es, in kleinen Schritten Test-Driven Development (TDD) zu üben und
 
 ## Ziel der Übung
 
-Du sollst eine Funktion `add(numbers: str) -> int` implementieren, die Zahlen aus einem Textstring extrahiert und deren Summe berechnet. Dabei lernst du, wie man schrittweise vorgeht, um funktionalen und wartbaren Code zu erstellen.
+Du sollst eine Funktion `add(numbers: str) -> int` (in src/string_calculator.py) implementieren, die Zahlen aus einem Textstring extrahiert und deren Summe berechnet. Dabei lernst du, wie man schrittweise vorgeht, um funktionalen und wartbaren Code zu erstellen.
 
 ---
 
